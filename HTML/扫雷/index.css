@@ -1,0 +1,41 @@
+#bar {
+    text-align: center;
+    margin-bottom:20px;
+  }
+
+  .bar {
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    display: inline-block;
+    border: solid 4px #000;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+#grid {
+    margin: auto;  /* 让矩阵居中显示于页面 */
+}
+
+.blocks {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;   /* 让span以block方式显示 */
+    text-align: center;
+    border: solid 4px rgba(0, 0, 0, 0.6);
+    user-select: none;  /* 设置不可拖拽选中 */
+    cursor: pointer;  /* 设置鼠标停留样式 */
+    user-select: none;
+    font-size: 30px;
+    box-shadow:
+    0px 1px 0px #c0c0c0,
+    0px 2px 0px #b0b0b0,
+    0px 3px 0px #a0a0a0,
+    0px 4px 0px #909090,
+    0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.blocks:hover {
+    background: #909090;  /* 鼠标停留时背景颜色变化 */
+}
